@@ -7,12 +7,12 @@
 html, body{
     width: 100%;
     height: 100%;
-} 
+}
 
 .container{
- 
+
     padding: 10px 20px 20px 20px;
-    width: 1008px; 
+    width: 1008px;
     margin: 0 auto;
     border-left:3px solid #dcdcdc;
     border-right:3px solid #dcdcdc;
@@ -51,17 +51,6 @@ header img{
     color: #9E9E9E;
 }
 
-/*banner*/
-
-.banner{
-    margin-top: 30px;
-    width: 100%;
-    height: 300px;
-    background-color: #CECECE;
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
-
 /*conteudo*/
 
 .conteudo-container{
@@ -91,7 +80,7 @@ header img{
     margin-bottom: 5px;
     margin-right: 5px;
     border-radius: 2px;
-    
+
 }
 
 .conteudo-linha-metade{
@@ -116,7 +105,7 @@ header img{
 /*footer*/
 
 footer{
-    
+
     width: 100%;
     height: 60px;
     text-align: center;
@@ -124,104 +113,3 @@ footer{
     color: #8c8c8c;
     margin-top: 30px;
 }
-
-/*banner*/
-
-.banner-area {
-  position: absolute;
-  top: 0;
-  left: 0;
-  
-  width: 100vw;
-  height: 100vh;
-  
-  display: flex;
-  align-items: center;
-}
-
-.banner-area.hide {
-  display: flex;
-}
-
-.banner-content {
-  background-color: rgba(0,0,0,0.5);
-  
-  width: 100%;
-  padding: 16px 0;
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.banner-img {
-  border: 8px solid rgba(0,0,0,0.25);
-  border-radius: 3px;
-  display: flex;
-  align-items: center;
-}
-
-.banner-close-button {
-  align-self: flex-start;
-  
-  margin-top: 2em;
-  padding: .25em .75em;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  background-color: rgba(0,0,0,0.25);
-  
-  color: #eee;
-  font-weight:700;
-}
-
-.banner-hover-area {
-  position: absolute;
-  top: 0;
-  right: 0;
-  
-  width: 70px;
-  height: 100vh;
-  
-  display: flex;
-  align-items: center;
-  transition:all 0.3s linear
-}
-
-.banner-hover-content {
-  background-color: rgba(0,0,0,0.5);
-  
-  width: 100%;
-  padding: 8px;
-  
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.banner-hover-img {
-  flex: 1;
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.banner-hover-img .img {
-  margin-right: 0;
-  width: 100%;
-  height: 100%;
-  transition:all 0.3s linear;
-}
-
-#close-banner{
-    display: none;
-    margin-left: 0px;
-}
-
-/*
-.banner-hover-area:hover{
-  width:100%;
-}
-*/
